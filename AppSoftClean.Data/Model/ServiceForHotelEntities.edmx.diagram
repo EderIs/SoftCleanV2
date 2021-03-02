@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1952adad75334117b228e67d98ffe2df" Name="Diagram1" ZoomLevel="52">
+        <EntityTypeShape EntityType="ServiceForHotelModel.AdmDivisiones" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.AdmDosEstLim" Width="1.5" PointX="11.5" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.AdmDosLav" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.AdmModEqDos" Width="1.5" PointX="11.5" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.AdmModJab" Width="1.5" PointX="11.5" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.AdmPorGalon" Width="1.5" PointX="11.5" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.AdmProdQuim" Width="1.5" PointX="3" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.AdmTipMaqLav" Width="1.5" PointX="3.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.AreasUso" Width="1.5" PointX="0.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.CatComRev" Width="1.5" PointX="6" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.Categorias" Width="1.5" PointX="8.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.Hoteles" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.Levantamiento_Equipos" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.Observacion" Width="1.5" PointX="10.5" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.Pedidos_Area" Width="1.5" PointX="8.25" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.RegRepSer" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.Reportes_Servicio" Width="1.5" PointX="3" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.RevCom" Width="1.5" PointX="8.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.Servicios_Lavavajillas" Width="1.5" PointX="6" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiceForHotelModel.Usuarios" Width="1.5" PointX="11" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_Levantamiento_Equipos_AdmDivisiones" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_Pedidos_Area_AdmDosEstLim" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_Pedidos_Area_AdmModEqDos" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_Pedidos_Area_AdmModJab" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_Pedidos_Area_AdmPorGalon" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_AdmProdQuim_AreasUso" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_RegRepSer_AdmProdQuim" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_Pedidos_Area_AdmTipMaqLav" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_Servicios_Lavavajillas_AdmTipMaqLav" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_RevCom_CatComRev" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_Usuarios_Categorias" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_Levantamiento_Equipos_Hoteles" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_Reportes_Servicio_Hoteles" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_Servicios_Lavavajillas_Hoteles" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_Pedidos_Area_Levantamiento_Equipos" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_Observacion_RevCom" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_RegRepSer_Reportes_Servicio" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiceForHotelModel.FK_RevCom_Servicios_Lavavajillas" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
