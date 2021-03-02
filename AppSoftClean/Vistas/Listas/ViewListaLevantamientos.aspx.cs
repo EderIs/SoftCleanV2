@@ -112,6 +112,7 @@ namespace AppSoftClean.Vistas.Listas
                 {
                     lblErrorDDLHotel.Visible = true;
                     lblMargenHotel.Visible = false;
+                    this.UpdateValidacionModalHoteles.Update();
                 }
                 else
                 {
@@ -199,7 +200,7 @@ namespace AppSoftClean.Vistas.Listas
 
         protected void DDL_Hoteles_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (DDL_Divisiones.Text == "Selecciona un Hotel")
+            if (DDL_Hoteles.Text == "Selecciona un Hotel")
             {
                 lblErrorDDLHotel.Visible = true;
                 lblMargenHotel.Visible = false;
@@ -209,7 +210,7 @@ namespace AppSoftClean.Vistas.Listas
                 lblErrorDDLHotel.Visible = false;
                 lblMargenHotel.Visible = true;
             }
-            this.UpdateValidacion.Update();
+            this.UpdateValidacionHoteles.Update();
         }
 
         protected void BtnCancelar_Click(object sender, EventArgs e)

@@ -113,7 +113,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <asp:UpdatePanel ID="UpdateValidacionModalHoteles" runat="server" UpdateMode="Conditional">
                                 <ContentTemplate>
                                     <asp:UpdatePanel ID="UpdateValidacionHoteles" runat="server" UpdateMode="Conditional">
@@ -136,9 +136,7 @@
                                 </asp:DropDownList>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <asp:RequiredFieldValidator ID="rfvFolio" runat="server" ValidationGroup="VDReportesServicio"
                                 ControlToValidate="TextFolio"
                                 ErrorMessage="El Folio es Requerido"
@@ -159,7 +157,7 @@
                                 Style="padding-bottom: 1px">
                             </asp:RegularExpressionValidator>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <asp:RequiredFieldValidator ID="rfvFecha" runat="server" ValidationGroup="VDReportesServicio"
                                 ControlToValidate="TextFecha"
                                 ErrorMessage="La Fecha es Requerida"

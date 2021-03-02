@@ -178,6 +178,9 @@
   <data name="ViewListaLevantamiento" xml:space="preserve">
     <value>~/Vistas/Listas/ViewListaLevantamientos.aspx</value>
   </data>
+  <data name="ViewListaReportesServicio" xml:space="preserve">
+    <value>~/Vistas/Listas/ViewListaReportesServicio.aspx</value>
+  </data>
   <data name="ViewModEqDos" xml:space="preserve">
     <value>~/Vistas/Listas/ViewModEqDos.aspx</value>
   </data>
@@ -189,6 +192,9 @@
   </data>
   <data name="ViewProdQuim" xml:space="preserve">
     <value>~/Vistas/Listas/ViewProdQuim.aspx</value>
+  </data>
+  <data name="ViewRegRepSer" xml:space="preserve">
+    <value>~/Vistas/Listas/ViewRegRepSer.aspx?id=</value>
   </data>
   <data name="ViewTipMaqLav" xml:space="preserve">
     <value>~/Vistas/Listas/ViewTipMaqLav.aspx</value>

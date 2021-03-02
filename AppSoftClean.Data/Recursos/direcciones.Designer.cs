@@ -232,6 +232,15 @@ namespace AppSoftClean.Data.Recursos {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a ~/Vistas/Listas/ViewListaReportesServicio.aspx.
+        /// </summary>
+        public static string ViewListaReportesServicio {
+            get {
+                return ResourceManager.GetString("ViewListaReportesServicio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a ~/Vistas/Listas/ViewModEqDos.aspx.
         /// </summary>
         public static string ViewModEqDos {
@@ -264,6 +273,15 @@ namespace AppSoftClean.Data.Recursos {
         public static string ViewProdQuim {
             get {
                 return ResourceManager.GetString("ViewProdQuim", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a ~/Vistas/Listas/ViewRegRepSer.aspx?id=.
+        /// </summary>
+        public static string ViewRegRepSer {
+            get {
+                return ResourceManager.GetString("ViewRegRepSer", resourceCulture);
             }
         }
         

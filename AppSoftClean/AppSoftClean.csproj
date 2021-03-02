@@ -230,6 +230,7 @@
     <Content Include="Vistas\Listas\ViewModJab.aspx" />
     <Content Include="Vistas\Listas\ViewPorGalon.aspx" />
     <Content Include="Vistas\Listas\ViewProdQuim.aspx" />
+    <Content Include="Vistas\Listas\ViewRegRepSer.aspx" />
     <Content Include="Vistas\Listas\ViewTipMaqLav.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -452,6 +453,13 @@
     </Compile>
     <Compile Include="Vistas\Listas\ViewProdQuim.aspx.designer.cs">
       <DependentUpon>ViewProdQuim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Listas\ViewRegRepSer.aspx.cs">
+      <DependentUpon>ViewRegRepSer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Listas\ViewRegRepSer.aspx.designer.cs">
+      <DependentUpon>ViewRegRepSer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vistas\Listas\ViewTipMaqLav.aspx.cs">
       <DependentUpon>ViewTipMaqLav.aspx</DependentUpon>
